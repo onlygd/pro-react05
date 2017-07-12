@@ -107,11 +107,11 @@ render(){
 
   - this.props.children 을 그대로 렌더링하는 대신, 이를 복제+추가 속성을 주입
 
-  ```
-  let child = this.props.children && React.cloneElement(this.props.children,
-   	{ repositories: this.state.repositories }
-  )
-  ```
+    ```
+    let child = this.props.children && React.cloneElement(this.props.children,
+     	{ repositories: this.state.repositories }
+    )
+    ```
 
 
 - 속성 전달하기
