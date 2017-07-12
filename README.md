@@ -155,6 +155,9 @@ render(){
 
 ### 참고 자료
 
+- https://css-tricks.com/learning-react-router/
+- router 실습
+  - https://reacttraining.com/react-router/web/example/basic
 - history 관련 
   - https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/history.md
   - https://www.npmjs.com/package/history
